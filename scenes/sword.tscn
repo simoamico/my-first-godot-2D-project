@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxx0yof8utlyi"]
+
+[ext_resource type="Texture2D" uid="uid://c7ingk26o4yav" path="res://assets/sprites/Sword.png" id="1_fyify"]
+
+[node name="Sword" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5708
+scale = Vector2(0.71875, 0.71875)
+texture = ExtResource("1_fyify")
