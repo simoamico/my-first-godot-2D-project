@@ -2,13 +2,13 @@
 
 [ext_resource type="PackedScene" uid="uid://xhq157owk1yh" path="res://scenes/player.tscn" id="1_4b1k6"]
 [ext_resource type="Texture2D" uid="uid://d0shivgltpt03" path="res://assets/sprites/world_tileset.png" id="2_shsmn"]
-[ext_resource type="Script" path="res://scripts/player_camera.gd" id="3_7c6u2"]
+[ext_resource type="Script" uid="uid://frnvc8401im1" path="res://scripts/player_camera.gd" id="3_7c6u2"]
 [ext_resource type="PackedScene" uid="uid://dd1877jr6c8we" path="res://scenes/platform.tscn" id="3_lgyqr"]
 [ext_resource type="PackedScene" uid="uid://couf6mcnx82k2" path="res://scenes/coin.tscn" id="4_252cq"]
 [ext_resource type="PackedScene" uid="uid://daj3sn0agd10o" path="res://scenes/killzone.tscn" id="5_he8y3"]
 [ext_resource type="PackedScene" uid="uid://cs5tp8s2q52vs" path="res://scenes/slime.tscn" id="6_8bttt"]
 [ext_resource type="FontFile" uid="uid://c8sr175dsc4cs" path="res://assets/fonts/PixelOperator8.ttf" id="7_08v7n"]
-[ext_resource type="Script" path="res://scripts/game_manager.gd" id="8_jhleo"]
+[ext_resource type="Script" uid="uid://bms1xqk1ugg1a" path="res://scripts/game_manager.gd" id="8_jhleo"]
 [ext_resource type="FontFile" uid="uid://d4hgjw7e2s7gs" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="9_fpqbp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aft4k"]
@@ -213,8 +213,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1r7sh"]
 _data = {
-"RESET": SubResource("Animation_csrfo"),
-"move": SubResource("Animation_sn4wi")
+&"RESET": SubResource("Animation_csrfo"),
+&"move": SubResource("Animation_sn4wi")
 }
 
 [sub_resource type="Animation" id="Animation_exqrm"]
@@ -251,8 +251,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1lf8y"]
 _data = {
-"RESET": SubResource("Animation_exqrm"),
-"move": SubResource("Animation_npt6k")
+&"RESET": SubResource("Animation_exqrm"),
+&"move": SubResource("Animation_npt6k")
 }
 
 [node name="Game" type="Node2D"]
